@@ -1,8 +1,8 @@
----------------------------------------------------
- Lockpickable doors and chests mod for Arx Fatalis
----------------------------------------------------
+---------------------------------------------
+ Everything lockpickable mod for Arx Fatalis
+---------------------------------------------
 
-An Arx Fatalis mod that makes all chests and doors lockpickable
+An Arx Fatalis mod that makes every door and lock pickable
 
 --------------
  Installation
@@ -17,4 +17,4 @@ https://github.com/fredlllll/ArxLibertatisModManager
  External links
 ----------------
 
-Homepage: https://github.com/meszaros-lajos-gyorgy/arx-mod-lockpickable-doors-and-chests
+Homepage: https://github.com/meszaros-lajos-gyorgy/arx-mod-everything-lockpickable
