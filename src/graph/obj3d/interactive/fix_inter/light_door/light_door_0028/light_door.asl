@@ -1,5 +1,7 @@
-ON INIT {
- SET £key "KEY_BASE_0031"
+ON INIT {
+
+ SET £key "KEY_BASE_0031"
+
  SET £type "door_fullmetal"
  SET §lockpickability 80
  ACCEPT
@@ -8,7 +10,7 @@ ON INIT {
 ON RELOAD {
   SENDEVENT CLOSE SELF ""
   IF (#PLAYER_ON_QUEST == 6) {
-   SET §lockpickability 100
+   SET §lockpickability 99
    SET §unlock 0
    ACCEPT
   }

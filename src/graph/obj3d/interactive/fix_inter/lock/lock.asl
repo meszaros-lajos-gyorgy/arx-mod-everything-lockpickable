@@ -6,7 +6,7 @@ ON INIT {
  SET_MATERIAL METAL
  SET §unlock 0
  SET £key "NONE"
- SET §lockpickability 100
+ SET §lockpickability 99
  SET £controlled_door "NONE"
  SET §chance 0
  SET £tools "NONE"

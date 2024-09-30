@@ -4,7 +4,7 @@ ON INIT {
  ACCEPT
 }
 ON INITEND {
- SET §lockpickability 100
+ SET §lockpickability 99
  ACCEPT
 }
 ON GAME_READY {

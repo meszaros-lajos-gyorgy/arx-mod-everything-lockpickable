@@ -7,7 +7,7 @@ ON INIT {
  SET_SHADOW OFF
  SET §open 0
  SET §playing_locked 0
- SET §lockpickability 100
+ SET §lockpickability 99
  SET §chance 0
  SET £key "portcullis"   //this is used for npcs
  SET £tools "NONE"

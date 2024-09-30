@@ -4,7 +4,7 @@ ON INIT {
  SET £type "door_city_unbreak"
  SET £friend "kingdom"
  SET §unlock 0
- SET §lockpickability 100
+ SET §lockpickability 99
  SET_SPEAK_PITCH 0.9
  ACCEPT
 }
@@ -26,7 +26,7 @@ ON RELOAD {
   IF (#look_for_shany == 1) SET §unlock 1
   IF (#PLAYER_ON_QUEST == 6) {
     SET §unlock 0
-    SET §lockpickability 100
+    SET §lockpickability 99
     ACCEPT
   }
   IF (#PLAYER_ON_QUEST == 7) {

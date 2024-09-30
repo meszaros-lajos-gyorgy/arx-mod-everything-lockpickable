@@ -2,7 +2,7 @@ ON INIT {
  SET £type "door_fullmetal"
  SET £key "KEY_BASE_0008"
  SET §status 0 // when = 1 player comes from temple and door is open, Ylside is not here anymore.
- SET §lockpickability 100
+ SET §lockpickability 99
  ACCEPT
 }
 

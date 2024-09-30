@@ -3,7 +3,7 @@ SETNAME [description_lever_base]
  SET_MATERIAL WOOD
  SET_SHADOW OFF
  SET §unlock 0
- SET §lockpickability 100
+ SET §lockpickability 99
  SET £hidden_lever "NONE"
  ACCEPT
 }

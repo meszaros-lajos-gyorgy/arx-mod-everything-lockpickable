@@ -3,7 +3,7 @@ ON INIT {
  SET_SHADOW OFF
  LOADANIM ACTION1 "Door_close"
  LOADANIM ACTION2 "Door_open"
- SET §lockpickability 100
+ SET §lockpickability 99
  SET £key "NOKEY"
  SET §open 0
  SET §unlock 0

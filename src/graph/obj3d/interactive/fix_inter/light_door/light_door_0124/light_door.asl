@@ -13,7 +13,7 @@ ON LOAD {
 ON LOCK {
  SET §unlock 0
  SENDEVENT CLOSE SELF ""
- SET §lockpickability 100
+ SET §lockpickability 99
  ACCEPT 
 }
 

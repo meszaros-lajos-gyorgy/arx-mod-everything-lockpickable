@@ -1,7 +1,7 @@
 ON INIT {
  SET §first 0
  SET_SECRET 50
- SET §lockpickability 100
+ SET §lockpickability 99
  SET §unlock 0
  SET £key "NOKEY"
  SET £tools "NONE"

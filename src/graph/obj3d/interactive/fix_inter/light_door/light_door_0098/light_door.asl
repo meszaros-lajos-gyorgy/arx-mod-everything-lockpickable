@@ -9,7 +9,7 @@ ON RELOAD {
   IF (§broken == 1) ACCEPT
   SENDEVENT CLOSE SELF ""
   IF (#PLAYER_ON_QUEST == 6) {
-    SET §lockpickability 100
+    SET §lockpickability 99
     SET §breakable 0
     SET §unlock 0
     ACCEPT

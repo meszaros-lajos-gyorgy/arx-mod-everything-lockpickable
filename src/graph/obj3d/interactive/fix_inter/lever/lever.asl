@@ -9,7 +9,7 @@ ON INIT {
  SET §position 0
  COLLISION OFF 
  // for trap lockpicking....
- SET §lockpickability 100
+ SET §lockpickability 99
  SET §unlock 0
  // for trap detection
  SETTRAP -1

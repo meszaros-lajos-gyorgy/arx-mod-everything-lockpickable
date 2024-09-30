@@ -6,7 +6,7 @@ ON INIT {
  SET §broken 0
  SET §unlock 0
  SET £key "NONE"
- SET §lockpickability 100
+ SET §lockpickability 99
  SET £doortype "dwarves_door"
  SET £animclose "Door_dwarves_close"
  SET £animopen "Door_dwarves_open"

@@ -1,8 +1,10 @@
 ON INIT {
  SET §spoken 0			// Used to konw if door has already spoken
  SET_SPEAK_PITCH 0.9
- SET £key "key_base_0031"
- SET §lockpickability 60
+ SET £key "key_base_0031"
+
+ SET §lockpickability 60
+
  SET £type "door_city_unbreak"
  ACCEPT
 }
@@ -21,7 +23,7 @@ ON RELOAD {
   SENDEVENT CLOSE SELF ""
   IF (#PLAYER_ON_QUEST == 6) {
     SET §unlock 0
-    SET §lockpickability 100
+    SET §lockpickability 99
     ACCEPT
   }
   IF (#PLAYER_ON_QUEST == 7) {

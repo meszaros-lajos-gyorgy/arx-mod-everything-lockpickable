@@ -5,7 +5,7 @@ ON INIT {
  SET_MATERIAL STONE
  SET §unlock 0
  SET £key "DISSIDENT_KEY_0001"
- SET §lockpickability 100
+ SET §lockpickability 99
  SET £controlled_door "NONE"
  SET §chance 0
  SET £tools "NONE"

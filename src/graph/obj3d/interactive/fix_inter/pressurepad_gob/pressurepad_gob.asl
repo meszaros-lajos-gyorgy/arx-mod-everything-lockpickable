@@ -9,7 +9,7 @@ ON INIT {
  SETBUMP ON
  SETZMAP ON
  // for trap lockpicking....
- SET §lockpickability 100
+ SET §lockpickability 99
  SET §unlock 0
 
  // for trap detection

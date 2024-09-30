@@ -6,7 +6,7 @@ ON INIT {
  SET §open 0
  SET §unlock 0
  SET £key "NOKEY"
- SET §lockpickability 100
+ SET §lockpickability 99
  ACCEPT
 }
 

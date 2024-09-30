@@ -18,7 +18,7 @@ ON GAME_READY {
 ON RELOAD {
   SENDEVENT CLOSE SELF ""
   IF (#PLAYER_ON_QUEST == 6) {
-    SET §lockpickability 100
+    SET §lockpickability 99
     SET §unlock 0
     SET £key "NOKEYEVER"
     ACCEPT

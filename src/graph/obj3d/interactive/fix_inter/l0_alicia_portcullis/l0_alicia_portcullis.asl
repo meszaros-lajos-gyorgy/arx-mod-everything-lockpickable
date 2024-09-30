@@ -6,7 +6,7 @@ ON INIT {
  SET_SHADOW OFF
  SET §open 0
  SET §playing_locked 0
- SET §lockpickability 100
+ SET §lockpickability 99
  SET £opensfx "porticullis_open"
  SET £closesfx "porticullis_close"
  SET £type "NONE"

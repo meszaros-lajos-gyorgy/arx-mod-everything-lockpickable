@@ -1,6 +1,9 @@
-ON INIT {
- SET £key "key_base_0029"
- SET §lockpickability 80
+ON INIT {
+
+ SET £key "key_base_0029"
+
+ SET §lockpickability 80
+
  SET £type "door_city_unbreak"
  ACCEPT
 }
@@ -13,7 +16,7 @@ ON LOAD {
 ON RELOAD {
   SENDEVENT CLOSE SELF ""
   IF (#PLAYER_ON_QUEST == 6) {
-   SET §lockpickability 100
+   SET §lockpickability 99
    SET §unlock 0
    ACCEPT
   }

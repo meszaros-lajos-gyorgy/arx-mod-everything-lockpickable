@@ -1,6 +1,6 @@
 ON INIT {
  SET §unlock 0
- SET §lockpickability 100
+ SET §lockpickability 99
  SETNAME [description_chest]
  SET_MATERIAL WOOD
  INVENTORY CREATE
