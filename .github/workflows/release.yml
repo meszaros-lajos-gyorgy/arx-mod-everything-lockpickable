@@ -1,0 +1,35 @@
+# https://github.com/marketplace/actions/easy-zip-files
+# https://github.com/marketplace/actions/upload-files-to-a-github-release
+
+name: Release
+
+on:
+  push:
+    tags:
+      - "*"
+
+env:
+  REPO_NAME: ${{ github.event.repository.name }}
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Zip and add to release
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Create a zip from the contents of src
+        uses: vimtor/action-zip@v1
+        with:
+          files: src/
+          dest: release.zip
+      - name: Upload zip to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          file: release.zip
+          asset_name: ${{ env.REPO_NAME }}-$tag.zip
+          tag: ${{ github.ref }}
+          overwrite: true
