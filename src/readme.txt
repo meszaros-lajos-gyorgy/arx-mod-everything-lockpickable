@@ -2,12 +2,17 @@
  Everything lockpickable mod for Arx Fatalis
 ---------------------------------------------
 
-An Arx Fatalis mod that makes doors and other locked things which were previously impossible to open by the player
+This mod makes doors and other locked things which were previously impossible to open by the player
 possible to open with lockpicking.
 
-An example is the door to Miguel's smithy, or Tafiok's shop in the city of Arx when they are not in their shops.
-
 The highest level of mechanical skills you will need is 99.
+
+The following doors are now pickable:
+
+- Miguel's smithy (level 1, city of Arx)
+- Tafiok's shop (level 1, city of Arx)
+
+TODO: add a complete list of doors and locks that have been changed
 
 Fun fact: anything locked with the lockpicking difficulty of 100 is treated as unpickable by the Arx engine.
 
@@ -25,3 +30,5 @@ https://github.com/fredlllll/ArxLibertatisModManager
 ----------------
 
 Homepage: https://github.com/meszaros-lajos-gyorgy/arx-mod-everything-lockpickable
+
+Check out other mods, maps and tools here: https://arx-tools.github.io/
