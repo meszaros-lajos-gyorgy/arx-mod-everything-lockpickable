@@ -9,8 +9,9 @@ The highest level of mechanical skills you will need is 99.
 
 The following doors are now pickable:
 
-- Miguel's smithy (level 1, city of Arx)
-- Tafiok's shop (level 1, city of Arx)
+- Miguel's smithy (city of Arx)
+- Tafiok's shop (city of Arx)
+- gate behind Gladivir's puzzle (crypt level 3)
 
 TODO: add a complete list of doors and locks that have been changed
 
